@@ -45,7 +45,7 @@ console.log(nombresEstudiantes.length);  // 4
 
 ### Acceso a elementos en una matriz
 
-Podemos acceder a un elemento de una matriza en cualquier momento, solo necesitamos llamar al elemento por su posición en la matriz. Los elementos reciben una posición numérica (índice) de acuerdo con su ubicación en la matriz, en orden. El orden numérico de una matriz SIEMPRE comienza en 0, por lo que el primer elemento está en el índice 0, el segundo en el índice 1, el tercero en el 2, y así sucesivamente (esto puede ser complicado al principio, pero solo recuerda que las matrices siempre comienzan en 0).
+Podemos acceder a un elemento de una matriz en cualquier momento, solo necesitamos llamar al elemento por su posición en la matriz. Los elementos reciben una posición numérica (índice) de acuerdo con su ubicación en la matriz, en orden. El orden numérico de una matriz SIEMPRE comienza en 0, por lo que el primer elemento está en el índice 0, el segundo en el índice 1, el tercero en el 2, y así sucesivamente (esto puede ser complicado al principio, pero solo recuerda que las matrices siempre comienzan en 0).
 
 ```javascript
 const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
@@ -70,7 +70,7 @@ console.log(nombresEstudiantes[nombresEstudiantes.length - 1]);  // 'Samuel'
 
 ### Asignación
 
-Podemos asignar y reasignar cualquier índice en la matriz usando el paréntesis/índice y un "=".
+Podemos asignar y reasignar cualquier índice en la matriz usando los corchetes/índice y un "=".
 
 ```javascript
 const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
